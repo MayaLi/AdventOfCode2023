@@ -5,16 +5,25 @@
   "main": "./dist/app.js",
   "scripts": {
     "build": "tsc",
-    "start": "node dist/app.js",
+    "start": "node dist/8/app.js",
+    "dev": "ts-node src/index.ts",
     "clean": "rm -rf dist",
-    "test": "echo \"Error: no test specified\" && exit 1",
     "prettier": "prettier --write ./src/**/*.ts"
   },
   "keywords": [],
   "author": "Maya Li",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^20.10.4",
+    "@types/yargs": "^17.0.32",
+    "@typescript-eslint/eslint-plugin": "^6.13.2",
+    "@typescript-eslint/parser": "^6.13.2",
+    "eslint": "^8.55.0",
     "prettier": "^3.1.0",
+    "ts-node": "^10.9.1",
     "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "yargs": "^17.7.2"
   }
 }
