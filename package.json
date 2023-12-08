@@ -7,12 +7,14 @@
     "build": "tsc",
     "start": "node dist/app.js",
     "clean": "rm -rf dist",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier": "prettier --write ./src/**/*.ts"
   },
   "keywords": [],
   "author": "Maya Li",
   "license": "ISC",
   "devDependencies": {
+    "prettier": "^3.1.0",
     "typescript": "^5.3.3"
   }
 }
