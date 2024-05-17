@@ -101,13 +101,13 @@ export function runPart1() {
 export function runPart2() {
     console.log('part 2 start')
     // const steps = part2(PART_2_NETWORK, PART_2_INSTRUCTIONS)
-    const steps = part2(PART_2_NETWORK, PART_2_INSTRUCTIONS, 8698533078, [
+    const steps = part2(PART_2_NETWORK, PART_2_INSTRUCTIONS, 36752029607, [
         'PQZ',
-        'VDX',
-        'DCV',
-        'JVQ',
+        'HKP',
+        'BKZ',
+        'XNZ',
         'BGX',
-        'GKL',
+        'BTT',
     ])
     console.log(steps)
 }
